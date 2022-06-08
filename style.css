@@ -3,7 +3,7 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    padding: 20px 120px 20px;
+
 }
 
 .header-links {
@@ -35,6 +35,8 @@ body {
     flex-direction: column;
     padding: 0;
 }
+
+/*First Body Starts Here*/
 
 .first-body {
     background-color: #1F2937;
@@ -74,23 +76,66 @@ body {
     color: #e5e7eb;
 }
 
+/*First Body Ends Here
+  Second Body Starts Here  */
+
 .second-body {
     background-color: #FFF;
     margin: 40px;
     display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 60px;
 }
+
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 150px;
+}
+
+/*Second Body Ends Here
+  Third Body Starts Here  */
 
 .third-body {
     background-color: #e5e7eb;
     margin: 40px;
     display: flex;
+    margin: 0;
 }
+
+/*Third Body Ends Here
+  Fourth Body Starts Here  */
 
 .fourth-body {
     background-color: #FFF;
     margin: 40px;
     display: flex;
+    margin: 0;
 }
+
+/*Fourth Body Ends Here*/
 
 .footer {
     background-color: #1F2937;
