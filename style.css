@@ -23,6 +23,7 @@ body {
     justify-content: space-between;
     padding-left: 160px;
     padding-right: 160px;
+    padding-top: 20px;
 }
 
 .header-logo-text {
@@ -165,6 +166,8 @@ body {
     padding: 40px;
 }
 
+
+
 /*Fourth Body Ends Here*/
 
 .footer {
@@ -174,4 +177,5 @@ body {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    padding: 20px;
 }
