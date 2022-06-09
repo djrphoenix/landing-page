@@ -3,7 +3,6 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-
 }
 
 .header-links {
@@ -22,6 +21,8 @@ body {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
+    padding-left: 160px;
+    padding-right: 160px;
 }
 
 .header-logo-text {
@@ -122,7 +123,35 @@ body {
     background-color: #e5e7eb;
     margin: 40px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0;
+    padding: 100px;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1150px;
+}
+
+.quote-attribute {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 800;
+    font-size: 30px;
 }
 
 /*Third Body Ends Here
@@ -133,6 +162,7 @@ body {
     margin: 40px;
     display: flex;
     margin: 0;
+    padding: 40px;
 }
 
 /*Fourth Body Ends Here*/
