@@ -176,7 +176,10 @@ body {
     align-items: flex-start;
     gap: 30px;
     flex-basis: 50em;
-    padding: 40px;
+    padding-top: 60px;
+    padding-right: 180px;
+    padding-left: 180px;
+    padding-bottom: 60px;
     border-radius: 25px;
 }
 
