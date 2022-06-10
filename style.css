@@ -163,10 +163,43 @@ body {
     margin: 40px;
     display: flex;
     margin: 0;
-    padding: 40px;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
 }
 
+.call-to-action {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 30px;
+    flex-basis: 50em;
+    padding: 40px;
+    border-radius: 25px;
+}
 
+.call-header {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.call-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fourth-body button {
+    font-weight: 800;
+    font-size: 20px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: 2px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 6px 30px;
+}
 
 /*Fourth Body Ends Here*/
 
